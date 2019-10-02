@@ -136,19 +136,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Laravel\techsparse\public\image" />
-      <recent name="C:\xampp\htdocs\Laravel\techsparse\public\js" />
-      <recent name="C:\xampp\htdocs\Laravel\techsparse\app\Http\Controllers" />
-      <recent name="C:\xampp\htdocs\Laravel\techsparse\resources\views" />
-      <recent name="C:\xampp\htdocs\Laravel\ttutorials\public\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\Laravel\ttutorials\public\js" />
       <recent name="C:\xampp\htdocs\Laravel\ttutorials\resources\views\auth" />
       <recent name="C:\xampp\htdocs\Laravel\ttutorials\resources\views\auth\passwords" />
       <recent name="C:\xampp\htdocs\Laravel\ttutorials\resources\views" />
       <recent name="C:\xampp\htdocs\Laravel\ttutorials\resources\views\layouts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Laravel\techsparse\app" />
+      <recent name="C:\xampp\htdocs\Laravel\techsparse\public\image" />
+      <recent name="C:\xampp\htdocs\Laravel\techsparse\public\js" />
+      <recent name="C:\xampp\htdocs\Laravel\techsparse\app\Http\Controllers" />
+      <recent name="C:\xampp\htdocs\Laravel\techsparse\resources\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -211,7 +211,7 @@
       <workItem from="1569592087201" duration="368000" />
       <workItem from="1569751143690" duration="759000" />
       <workItem from="1569945611247" duration="12838000" />
-      <workItem from="1570022888568" duration="5747000" />
+      <workItem from="1570022888568" duration="11947000" />
     </task>
     <servers />
   </component>

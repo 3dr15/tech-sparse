@@ -1,6 +1,6 @@
 <html>
 <head>
-        <title>About Us</title>
+        <title>Quotation</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
@@ -42,7 +42,7 @@
 </head>
 <body>
 <div>
-    <h1><b><font size = "11"><center><font color="white"></font><img src="{{ asset("image/2.svg") }}" height="70px" width="70px" />Tech Sparse </font> <font size = "4">(Business Venture Solution)</font></center></b></h1>
+    <h1><b><font size = "11"><center><font color="white"></font><img src="{{ asset("image/2.svg") }}" height="70px" width="70px" />TechSparse </font> <font size = "4">(Business Venture Solutions)</font></center></b></h1>
     <hr class="new5">
     <p class="ex1">
     <center><table width="800">

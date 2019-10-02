@@ -27,12 +27,12 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function valid(){
-        $userRole= Auth::user()->userRole->roles;
-        if($userRole!='Customer'){
-            return view('unAuthorisedUser',['user'=> Auth::user()->name ]);
-        }
-    }
+//    public function valid(){
+//        $userRole= Auth::user()->userRole->roles;
+//        if($userRole!='Customer'){
+//            return view('unAuthorisedUser',['user'=> Auth::user()->name ]);
+//        }
+//    }
 
     public function postRequest(Request $request ){
         //dd($request);
@@ -76,8 +76,12 @@ class HomeController extends Controller
     }
     public function index()
     {
+        $userRole= Auth::user()->userRole->roles;
+        if($userRole!='Customer'){
+            return view('unAuthorisedUser',['user'=> Auth::user()->name ]);
+        }
         //dd(User::find($user));
-        $this->valid();
+        //$this->valid();
         return view('orderRequest');
     }
     public function orderRequests(){

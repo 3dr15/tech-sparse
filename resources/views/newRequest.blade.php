@@ -32,10 +32,13 @@
             @endphp
             @foreach($req->quotation as $quotation)
                 @php
-                    if ($quotation->user->id == Auth::user()->id){
-                        $userflag=true;
-                        break;
-                    }
+                    $userflag=false;
+                        if ($quotation->user->id == Auth::user()->id){
+                            $userflag=true;
+                            break;
+                        }else{
+                            $userflag=false;
+                        }
                 @endphp
             @endforeach
         <div class="row justify-content-center mb-5">
@@ -136,8 +139,8 @@
                                     </div>
                                     <div class="div col-md-4">
                                         <p>
-                                            <b>Rs. </b><span id="Total" class="Total"></span>
                                             @if(!$userflag)
+                                            <b>Rs. </b><span id="Total" class="Total"></span>
                                             <input type="hidden" class="TotalInput" name="Total" value="">
                                             @endif
                                         </p>
@@ -147,7 +150,9 @@
                                         <b>Discount Rate</b>
                                     </div>
                                     <div class="div col-md-4">
+                                        @if(!$userflag)
                                         <p><b>Rs. </b>-<span id="discountAmount" class="discountAmount"></span></p>
+                                        @endif
                                     </div>
                                     <div class="col-md-4">
                                         @if(!$userflag)
@@ -159,8 +164,8 @@
                                     </div>
                                     <div class="div col-md-4">
                                         <p>
-                                            <b>Rs. </b><span id="grandTotal" class="grandTotal"></span>
                                             @if(!$userflag)
+                                            <b>Rs. </b><span id="grandTotal" class="grandTotal"></span>
                                             <input type="hidden" class="grandTotalInput" name="grandTotal" value="">
                                             @endif
                                         </p>
@@ -172,6 +177,9 @@
 
 
                                         @if(!$userflag)
+                                            @php
+                                                $count++;
+                                            @endphp
                                     <div class="col-md-4">
                                         <button type="submit" class="btn btn-outline-dark">Send Quotation</button>
                                     </div>
@@ -188,9 +196,6 @@
                 </div>
             </div>
         </div>
-            @php
-            $count++;
-            @endphp
         @endforeach
     </div>
 
