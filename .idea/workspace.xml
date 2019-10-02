@@ -132,7 +132,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -211,7 +211,7 @@
       <workItem from="1569592087201" duration="368000" />
       <workItem from="1569751143690" duration="759000" />
       <workItem from="1569945611247" duration="12838000" />
-      <workItem from="1570022888568" duration="3650000" />
+      <workItem from="1570022888568" duration="5747000" />
     </task>
     <servers />
   </component>
@@ -248,6 +248,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/blooming-scrubland-32079" />
+      <path value="$PROJECT_DIR$" />
     </ignored-roots>
   </component>
 </project>
